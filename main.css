@@ -1,0 +1,139 @@
+body{
+  font-family: "Lucida Console", Monaco, monospace;
+  width: 700px;
+}
+body  h1, p, ul, li, img{
+  margin:0;
+  padding:0;
+}
+a:link{
+  text-decoration: none;
+  color: #34E2E2;
+}
+a:hover{
+  text-decoration: underline;
+  color: #34E2E2;
+}
+a:visited{
+  text-decoration: none;
+  color: #34E2E2;
+}
+.title{
+  color: #34E2E2;
+  height: 60px;
+  border: 1px solid #21252b;
+  border-top-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+  background-color: #21252b;
+}
+.middle {
+  color: #34E2E2;
+  padding: 20px;
+  height: 300px;
+  border: 1px solid black;
+  background-color: #282C34;
+}
+.copy{
+  color: #5B616B;
+  padding: 10px;
+  border: 1px solid #21252b;
+  border-bottom-left-radius: 20px 20px;
+  border-bottom-right-radius: 20px 20px;
+  background-color: #21252b;
+}
+div.title li, div.hire li{
+  display: inline-block;
+}
+div.links li{
+  list-style: none;
+}
+#home{
+  padding-top: 10px;
+  margin-right: 20px;
+  padding-left:10px;
+}
+#name{
+  vertical-align: super;
+}
+div.profile img{
+  border: 10px solid #21252b;
+  outline: 1px solid black;
+}
+.links{
+  width: 50px;
+  float: left;
+  margin-right:20px;
+  height: 190px;
+  padding-left:10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color:#21252b;
+  border: 1px solid black;
+  -moz-box-shadow: 5px 5px 5px black;
+  -webkit-box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px black;
+}
+.profile{
+  float: left;
+  height: 210px;
+  width: 180px;
+  margin-top: 1px;
+  margin-right: 20px;
+  -moz-box-shadow: 6px 6px 6px black;
+  -webkit-box-shadow: 6px 6px 6px black;
+  box-shadow: 6px 6px 6px black;
+}
+.desc{
+  float: left;
+  background-color: #21252b;
+  border: 1px solid black;
+  padding: 10px;
+  height: 190px;
+  margin-bottom: 30px;
+  width: 350px;
+  -moz-box-shadow: 6px 6px 6px #050505;
+  -webkit-box-shadow: 6px 6px 6px #050505;
+  box-shadow: 6px 6px 6px #050505;
+}
+.main{
+  border-radius: 20px 20px;
+  -moz-box-shadow: 5px 5px 5px #777777;
+  -webkit-box-shadow: 5px 5px 5px #777777;
+  box-shadow: 5px 5px 5px #777777;
+}
+div.title p{
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom:5px;
+  text-shadow: 5px 5px 5px black;
+}
+.homeicon{
+  height:40px;
+  width:40px;
+  border-radius:20px;
+  -moz-box-shadow: 5px 5px 5px black;
+  -webkit-box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px black;
+}
+.icon{
+  height:40px;
+  width:40px;
+  border-radius:20px;
+  -moz-box-shadow: 5px 5px 5px black;
+  -webkit-box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px black;
+}
+.link{
+  padding-bottom: 10px;
+}
+.icon img{
+  border: 3px solid white;
+  border-radius:30px;
+}
+.icon:hover img{
+  border: 3px solid #34E2E2;
+  border-radius: 30px;
+}
+.icon:active img{
+  opacity: 0.5;
+}
