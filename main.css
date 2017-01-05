@@ -1,3 +1,6 @@
+html{
+  background-color: grey;
+}
 body{
   font-family: "Lucida Console", Monaco, monospace;
   width: 700px;
@@ -84,7 +87,7 @@ div.profile img{
   box-shadow: 6px 6px 6px black;
 }
 .desc{
-  float: left;
+  float:left;
   background-color: #21252b;
   border: 1px solid black;
   padding: 10px;
@@ -96,10 +99,15 @@ div.profile img{
   box-shadow: 6px 6px 6px #050505;
 }
 .main{
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -20em;
+  margin-left: -21.75em;
   border-radius: 20px 20px;
-  -moz-box-shadow: 5px 5px 5px #777777;
-  -webkit-box-shadow: 5px 5px 5px #777777;
-  box-shadow: 5px 5px 5px #777777;
+  -moz-box-shadow: 5px 5px 8px #101010;
+  -webkit-box-shadow: 5px 5px 8px #101010;
+  box-shadow: 5px 5px 8px #101010;
 }
 div.title p{
   font-size: 38px;
