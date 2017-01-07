@@ -3,10 +3,14 @@ html{
 }
 body{
   font-family: "Lucida Console", Monaco, monospace;
+  text-align: center;
 }
 body  h1, p, ul, li, img{
   margin:0;
   padding:0;
+}
+#maincontainer{
+  margin: 0 auto;
 }
 a:link{
   text-decoration: none;
@@ -21,6 +25,7 @@ a:visited{
   color: #34E2E2;
 }
 .title{
+  text-align:left;
   color: #34E2E2;
   height: 60px;
   border: 1px solid #21252b;
@@ -34,8 +39,10 @@ a:visited{
   height: 300px;
   border: 1px solid black;
   background-color: #282C34;
+  text-align: left;
 }
 .copy{
+  text-align: left;
   color: #5B616B;
   padding: 10px;
   border: 1px solid #21252b;
@@ -45,6 +52,7 @@ a:visited{
 }
 .sidepanel{
   opacity:0;
+  text-align: left;
 }
 .stitle{
   color: #34E2E2;
@@ -240,6 +248,7 @@ div.profile img{
   box-shadow: 6px 6px 6px black;
 }
 .desc{
+  text-align: center;
   background-color: #21252b;
   border: 1px solid black;
   padding: 10px;
