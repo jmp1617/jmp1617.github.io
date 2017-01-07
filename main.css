@@ -12,7 +12,18 @@ body  h1, p, ul, li, img{
 #maincontainer{
   padding-top: 20px;
   margin: 0 auto;
-  width: 1330px;
+  width: 1300px;
+}
+#projects{
+  opacity: 0;
+  width:695px;
+  height: 158px;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 20px 20px 10px 10px;
+  -moz-box-shadow: 5px 5px 8px #101010;
+  -webkit-box-shadow: 5px 5px 8px #101010;
+  box-shadow: 5px 5px 8px #101010;
 }
 a:link{
   text-decoration: none;
@@ -51,10 +62,6 @@ a:visited{
   border-bottom-left-radius: 10px 10px;
   border-bottom-right-radius: 10px 10px;
   background-color: #21252b;
-}
-.sidepanel{
-  opacity:0;
-  text-align: left;
 }
 .stitle{
   color: #34E2E2;
@@ -127,7 +134,20 @@ div.links li{
 .mainflow{
   list-style: none;
   display:inline-flex;
+}
+#panel1{
+  list-style: none;
+  display:inline-flex;
   padding-right: 30px;
+}
+#panel2{
+  list-style: none;
+  display:inline-flex;
+}
+#panel3{
+  padding-left: 30px;
+  list-style: none;
+  display:inline-flex;
 }
 #OI{
   margin-left: 22px;
@@ -150,7 +170,7 @@ div.links li{
   padding-top: 10px;
   padding-left: 16px;
 }
-#projects{
+#projectb{
   color: white;
   padding: 10px;
   padding-left: 16px;
@@ -185,6 +205,62 @@ div.links li{
 }
 #tool{
   padding: 10px;
+}
+#ptit{
+  color: #34E2E2;
+  height: 46px;
+  border-top-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+  background-color: #21252b;
+}
+#pbody{
+  color: #34E2E2;
+  height: 91px;
+  border: 1px solid black;
+  background-color: #282C34;
+}
+#pfoot{
+  height: 20px;
+  border-bottom-left-radius: 10px 10px;
+  border-bottom-right-radius: 10px 10px;
+  background-color: #21252b;
+}
+#proj{
+  padding-top: 15px;
+  text-shadow: 5px 5px 5px black;
+}
+#electric{
+  background-color: #D96972;
+}
+#both{
+  background-color: #BE8D60;
+}
+#soft{
+  background-color: #91BA75;
+}
+#e{
+  padding-left: 34px;
+}
+#b{
+  padding-left: 75px;
+}
+#s{
+  padding-left: 47px;
+}
+.ptype{
+  color: white;
+  border: 3px solid white;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+  opacity: 0.25;
+  padding-bottom: 5px;
+  display: inline-flex;
+  height: 60px;
+  margin-top: 10px;
+  width: 214px;
+}
+.ptype h2{
+  text-align: center;
 }
 .l{
   display: inline-flex;
@@ -263,14 +339,16 @@ div.profile img{
 .main{
   opacity: 0;
   width: 695px;
-  border-radius: 20px 20px;
+  border-radius: 20px 20px 10px 10px;
   -moz-box-shadow: 5px 5px 8px #101010;
   -webkit-box-shadow: 5px 5px 8px #101010;
   box-shadow: 5px 5px 8px #101010;
 }
 .sidepanel{
+  opacity:0;
+  text-align: left;
   width: 260px;
-  border-radius: 20px 20px;
+  border-radius: 20px 20px 10px 10px;
   -moz-box-shadow: 5px 5px 8px #101010;
   -webkit-box-shadow: 5px 5px 8px #101010;
   box-shadow: 5px 5px 8px #101010;
@@ -329,6 +407,9 @@ div.title p{
 }
 .iconup{
   opacity: 1;
+}
+.iconhalf{
+  opacity: 0.5;
 }
 .toggled{
   border-color: #DE6874;
