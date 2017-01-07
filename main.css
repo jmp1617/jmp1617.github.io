@@ -10,7 +10,9 @@ body  h1, p, ul, li, img{
   padding:0;
 }
 #maincontainer{
+  padding-top: 20px;
   margin: 0 auto;
+  width: 1330px;
 }
 a:link{
   text-decoration: none;
