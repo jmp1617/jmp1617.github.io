@@ -61,7 +61,7 @@ $(document).ready(function() {
       $(this).addClass('iconhalf');
     }
   );
-  $('.aboutm').click(function(){
+  $('#aboutm').click(function(){
     if(isColapsed==false){
       $sbody.slideDown(1200);
       $('.sidepanel').fadeTo('slow',1);
@@ -73,7 +73,7 @@ $(document).ready(function() {
       isColapsed = false;
     }
   });
-  $('.projb').click(function(){
+  $('#projb').click(function(){
     if(isColapsedp==false){
       $projects.fadeTo('slow',1);
       isColapsedp = true;
