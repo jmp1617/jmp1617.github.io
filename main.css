@@ -130,6 +130,9 @@ a:visited{
   -webkit-box-shadow: 5px 5px 5px black;
   box-shadow: 5px 5px 5px black;
 }
+.stat p{
+  font-size:16px;
+}
 .button{
   cursor: pointer;
   width: 110px;
