@@ -43,7 +43,7 @@ $(document).ready(function() {
       $(this).addClass('iconhalf')
     }
   );
-  $('#pbody').hover(
+  $('.pbody').hover(
     function(){
       $('.ptype').addClass('iconhalf');
     },
