@@ -10,7 +10,10 @@ body  h1, h2, h4, p, ul, li, img{
   padding:0;
 }
 #maincontainer{
+  background-color: green;
   padding-top: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
   margin: 0 auto;
   width: 1300px;
 }
@@ -263,6 +266,7 @@ div.links li{
 .pbody{
   color: #34E2E2;
   height: 91px;
+  text-shadow: 5px 5px 5px black;
   border: 1px solid black;
   background-color: #282C34;
 }
