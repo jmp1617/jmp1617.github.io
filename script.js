@@ -9,42 +9,38 @@ $(document).ready(function() {
   $('#name').effect('slide', 1000);
   $('.links').hover(
     function(){
-      $('.icon').addClass('iconup');
+      $('.icon').addClass('iconhalf');
     },
     function(){
-      $('.icon').removeClass('iconup');
+      $('.icon').removeClass('iconhalf');
+    }
+  );
+  $('.icon').hover(
+    function(){
+      $(this).removeClass('iconhalf');
+      $(this).addClass('iconup');
+    },
+    function(){
+      $(this).removeClass('iconup');
+      $(this).addClass('iconhalf')
     }
   );
   $('.buttons').hover(
     function(){
-      $('.button').addClass('iconup');
+      $('.button').addClass('iconhalf');
     },
     function(){
-      $('.button').removeClass('iconup');
+      $('.button').removeClass('iconhalf');
     }
   );
-  $('.contact').hover(
+  $('.button').hover(
     function(){
-      $('.mailholder').addClass('iconup');
+      $(this).removeClass('iconhalf');
+      $(this).addClass('iconup');
     },
     function(){
-      $('.mailholder').removeClass('iconup');
-    }
-  );
-  $('.interests').hover(
-    function(){
-      $('.dot1').addClass('iconup');
-    },
-    function(){
-      $('.dot1').removeClass('iconup');
-    }
-  );
-  $('.skills').hover(
-    function(){
-      $('.dot2').addClass('iconup');
-    },
-    function(){
-      $('.dot2').removeClass('iconup');
+      $(this).removeClass('iconup');
+      $(this).addClass('iconhalf')
     }
   );
   $('#pbody').hover(
@@ -99,4 +95,31 @@ $(document).ready(function() {
   $(document).on('click', '.ptype', function(){
     $(this).effect('highlight', {color:'white'}, 400);
   });
+  $('.interests').hover(
+    function(){
+      $('.dot1').addClass('iconup');
+    },
+    function(){
+      $('.dot1').removeClass('iconup');
+    }
+  );
+  $('.skills').hover(
+    function(){
+      $('.dot2').addClass('iconup');
+    },
+    function(){
+      $('.dot2').removeClass('iconup');
+    }
+  );
+  $('.contact').hover(
+    function(){
+      $('.mailholder').addClass('iconup');
+    },
+    function(){
+      $('.mailholder').removeClass('iconup');
+    }
+  );
+  $('.ptype').click(function(){
+    $('#tempcomesoon').fadeTo('slow', 1);
+  })
 });
