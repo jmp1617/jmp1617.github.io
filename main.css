@@ -384,7 +384,8 @@ a:visited{
 }
 .desc{
   padding: 10px;
-  padding-right:1px;
+  padding-left: 10px;
+  padding-right:10px;
   text-align: left;
   background-color: #21252b;
   border: 1px solid black;
