@@ -452,6 +452,11 @@ a:visited {
   box-shadow: 6px 6px 6px #050505;
 }
 
+#res{
+  padding: 0px;
+  padding-top: 5px;
+}
+
 .resume{
   padding: 0px;
   padding-top: 5px;
@@ -466,6 +471,8 @@ a:visited {
   -webkit-box-shadow: 6px 6px 6px #050505;
   box-shadow: 6px 6px 6px #050505;
 }
+
+
 
 .contact{
   padding: 0px;
