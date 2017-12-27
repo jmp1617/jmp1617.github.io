@@ -439,6 +439,19 @@ a:visited {
   box-shadow: 6px 6px 6px #050505;
 }
 
+.skills2{
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #21252b;
+  border: 1px solid black;
+  width: 300px;
+  -moz-box-shadow: 6px 6px 6px #050505;
+  -webkit-box-shadow: 6px 6px 6px #050505;
+  box-shadow: 6px 6px 6px #050505;
+}
+
 .resume{
   padding: 0px;
   padding-top: 5px;

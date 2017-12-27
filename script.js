@@ -117,6 +117,15 @@ $(document).ready(function() {
     }
   );
 
+  $('.skills2').hover(
+    function(){
+      $('.dot1').addClass('iconhalf');
+    },
+    function(){
+      $('.dot1').removeClass('iconhalf');
+    }
+  );
+
   $('.contact').hover(
     function(){
       $('.mailholder').addClass('iconhalf');
@@ -128,5 +137,5 @@ $(document).ready(function() {
   $('.ptype').click(function(){
     $('#tempcomesoon').fadeTo('slow', 1);
   })
-  
+
 });
