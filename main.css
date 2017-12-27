@@ -80,6 +80,10 @@ a:visited {
   color: #34E2E2;
 }
 
+a{
+  outline: 0;
+}
+
 .title {
   text-align: left;
   color: #34E2E2;
