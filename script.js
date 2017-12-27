@@ -124,10 +124,10 @@ $(document).ready(function() {
   );
   $('.contact').hover(
     function(){
-      $('.mailholder').addClass('iconup');
+      $('.mailholder').addClass('iconhalf');
     },
     function(){
-      $('.mailholder').removeClass('iconup');
+      $('.mailholder').removeClass('iconhalf');
     }
   );
   $('.ptype').click(function(){

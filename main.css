@@ -30,7 +30,7 @@ body h1, h2, h3, h4, p, ul, li, img {
 
 #aboutpanel {
   display: none;
-  width: 695px;
+  width: 700px;
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -39,7 +39,7 @@ body h1, h2, h3, h4, p, ul, li, img {
 
 #projects {
   display: none;
-  width: 695px;
+  width: 700px;
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -48,7 +48,7 @@ body h1, h2, h3, h4, p, ul, li, img {
 
 #tempcomesoon {
   display: none;
-  width: 695px;
+  width: 700px;
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -413,6 +413,63 @@ a:visited {
   background-color: #21252b;
   border: 1px solid black;
   width: 350px;
+  -moz-box-shadow: 6px 6px 6px #050505;
+  -webkit-box-shadow: 6px 6px 6px #050505;
+  box-shadow: 6px 6px 6px #050505;
+}
+
+.abme{
+  color: #34E2E2;
+  padding: 10px;
+  padding-bottom: 10px;
+  text-shadow: 5px 5px 5px black;
+  border: 1px solid black;
+  background-color: #282C34;
+}
+
+.sgroup{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.skills{
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #21252b;
+  border: 1px solid black;
+  width: 300px;
+  -moz-box-shadow: 6px 6px 6px #050505;
+  -webkit-box-shadow: 6px 6px 6px #050505;
+  box-shadow: 6px 6px 6px #050505;
+}
+
+.resume{
+  padding: 0px;
+  padding-top: 5px;
+  padding-right: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #21252b;
+  border: 1px solid black;
+  width: 424px;
+  -moz-box-shadow: 6px 6px 6px #050505;
+  -webkit-box-shadow: 6px 6px 6px #050505;
+  box-shadow: 6px 6px 6px #050505;
+}
+
+.contact{
+  padding: 0px;
+  padding-top: 8px;
+  padding-right: 6px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #21252b;
+  border: 1px solid black;
+  width: 200px;
   -moz-box-shadow: 6px 6px 6px #050505;
   -webkit-box-shadow: 6px 6px 6px #050505;
   box-shadow: 6px 6px 6px #050505;
