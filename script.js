@@ -31,6 +31,15 @@ $(document).ready(function() {
     }
   );
 
+  $('.resume').hover(
+    function(){
+      $('.button2').addClass('iconhalf');
+    },
+    function(){
+      $('.button2').removeClass('iconhalf');
+    }
+  );
+
   $('.buttons').hover(
     function(){
       $('.button').addClass('iconhalf');
@@ -41,6 +50,17 @@ $(document).ready(function() {
   );
 
   $('.button').hover(
+    function(){
+      $(this).removeClass('iconhalf');
+      $(this).addClass('iconup');
+    },
+    function(){
+      $(this).removeClass('iconup');
+      $(this).addClass('iconhalf')
+    }
+  );
+
+  $('.button2').hover(
     function(){
       $(this).removeClass('iconhalf');
       $(this).addClass('iconup');

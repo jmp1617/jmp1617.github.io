@@ -152,6 +152,20 @@ a:visited {
   box-shadow: 5px 5px 5px black;
 }
 
+.button2{
+  cursor: pointer;
+  width: 110px;
+  height: 32px;
+  border-radius: 50px;
+  background-color: black;
+  border: 3px solid white;
+  transition: opacity 0.5s ease;
+  opacity: 0.25;
+  -moz-box-shadow: 5px 5px 5px black;
+  -webkit-box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px black;
+}
+
 .title li, .hire li {
   display: inline-block;
 }
@@ -475,6 +489,10 @@ a:visited {
   width: 190px;
 }
 
+.nound:hover{
+  text-decoration: none;
+}
+
 .resume{
   display: flex;
   padding: 10px;
@@ -589,5 +607,9 @@ a:visited {
 }
 
 .button:hover {
+  border: 3px solid #34E2E2;
+}
+
+.button2:hover {
   border: 3px solid #34E2E2;
 }
