@@ -108,22 +108,15 @@ $(document).ready(function() {
     $(this).effect('highlight', {color:'white'}, 400);
   });
 
-  $('.interests').hover(
-    function(){
-      $('.dot1').addClass('iconup');
-    },
-    function(){
-      $('.dot1').removeClass('iconup');
-    }
-  );
   $('.skills').hover(
     function(){
-      $('.dot2').addClass('iconup');
+      $('.dot2').addClass('iconhalf');
     },
     function(){
-      $('.dot2').removeClass('iconup');
+      $('.dot2').removeClass('iconhalf');
     }
   );
+
   $('.contact').hover(
     function(){
       $('.mailholder').addClass('iconhalf');
@@ -135,4 +128,5 @@ $(document).ready(function() {
   $('.ptype').click(function(){
     $('#tempcomesoon').fadeTo('slow', 1);
   })
+  
 });
