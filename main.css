@@ -225,17 +225,11 @@ a:visited {
 }
 
 #lang {
-  padding-left: 5px;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  padding-right: 1px;
+  text-align:left;
 }
 
-#tool {
-  padding: 10px;
-  padding-top: 0;
-  padding-left: 5px;
-  padding-bottom: 5px;
+#tool{
+  text-align:left;
 }
 
 #ptit {

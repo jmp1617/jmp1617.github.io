@@ -1,9 +1,11 @@
 $(document).ready(function() {
+
   var $sbody = $('.sbody');
   var $projects = $('#projects')
   var $aboutpanel = $('#aboutpanel')
   var isColapsed = false;
   var isColapsedp = false;
+
   $sbody.hide();
   $('.main').fadeTo(1000,1);
   $('.middle').hide().slideDown(1000);
