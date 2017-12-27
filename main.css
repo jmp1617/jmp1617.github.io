@@ -457,10 +457,27 @@ a:visited {
   padding-top: 5px;
 }
 
+#resbut{
+  text-align: center;
+  padding-top: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+#long{
+  width: 190px;
+  margin-right: 10px;
+}
+
+#long2{
+  width: 190px;
+}
+
 .resume{
-  padding: 0px;
-  padding-top: 5px;
-  padding-right: 5px;
+  display: flex;
+  padding: 10px;
   margin-right: 10px;
   margin-top: 10px;
   margin-left: 10px;
@@ -472,11 +489,9 @@ a:visited {
   box-shadow: 6px 6px 6px #050505;
 }
 
-
-
 .contact{
   padding: 0px;
-  padding-top: 8px;
+  padding-top: 17px;
   padding-right: 6px;
   margin-right: 10px;
   margin-top: 10px;
